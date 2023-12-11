@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TransfeRate - Register</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Add your existing CSS styles here */
+        form input[type=email] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">TransfeRate</a>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="registerForm" action="/register">
+            <h1>Create an Account</h1>
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Register"><br>
+            <p1>Already have an account? <a href="index.html">Log in</a></p1>
+        </form>
+    </main>
+</body>
+</html>
